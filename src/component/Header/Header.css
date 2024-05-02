@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo h1,
+h5 {
+    margin: 10px;
+    color: #e9366e;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    background-color: #a3a29e;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    flex: 1;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    background-color: #e9366e;
+}
+
+
+
